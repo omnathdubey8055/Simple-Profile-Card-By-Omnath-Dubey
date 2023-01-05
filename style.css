@@ -1,0 +1,46 @@
+body {
+    background: #ddd;
+}
+
+.profile-area {
+    padding: 80px 0;
+}
+
+.card {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img1 img {
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+}
+
+.main-text {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.main-text h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.main-text p {
+    font-size: 16px;
+    padding: 0 35px;
+}
+
+@media only screen and (max-width: 30em) {
+    body {
+        padding: 3rem;
+    }
+    .main {
+        card-gap: 6rem;
+    }
+}
